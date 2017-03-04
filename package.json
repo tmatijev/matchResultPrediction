@@ -3,9 +3,17 @@
   "description": "A simple match prediction code based on the club coefficient.",
   "main": "matchResultPrediction.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tmatijev/matchResultPrediction.git"
   },
-  "version": "1.0.3"
+  "version": "1.0.4",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^3.2.0"
+  }
 }

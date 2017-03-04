@@ -1,5 +1,5 @@
 # Match Result Prediction
-[![npm status](https://img.shields.io/badge/npm-v1.0.3-brightgreen.svg)](https://www.npmjs.org/package/roundrobin)
+[![npm status](https://img.shields.io/badge/npm-v1.0.4-brightgreen.svg)](https://www.npmjs.org/package/roundrobin)
 
 A simple match prediction code based on the club coefficient.
 

@@ -6,6 +6,11 @@ module.exports = function (d) {
    * d.winMax {Number}
    */
 
+  if (d.homeTeamCoef >= 1 || d.awayTeamCoef >= 1) {
+    console.warn('Team coefficient must be lower than 1!');
+    return false;
+  }
+
   let random = Math.random()
   let randomDraw = Math.floor(Math.random() * d.drawMax)
   let randomWin = Math.floor(Math.random() * d.winMax) + 1
