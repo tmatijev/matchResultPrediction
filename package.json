@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/tmatijev/matchResultPrediction.git"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-things": "^0.2.0",

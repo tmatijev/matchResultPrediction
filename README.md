@@ -1,5 +1,5 @@
 # Match Result Prediction
-[![npm status](https://img.shields.io/badge/npm-v1.0.4-brightgreen.svg)](https://www.npmjs.org/package/roundrobin)
+[![npm status](https://img.shields.io/badge/npm-v1.0.5-brightgreen.svg)](https://www.npmjs.org/package/roundrobin)
 
 A simple match prediction code based on the club coefficient.
 
@@ -8,8 +8,8 @@ Simply pass the params for teams:
 
 ```js
 var scores = matchResultPrediction({
-  homeTeamCoef,
-  awayTeamCoef,
+  homeTeamCoef: 0.91,
+  awayTeamCoef: 0.75,
   drawMax: 3,
   winMax: 5
 });
