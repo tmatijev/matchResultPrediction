@@ -1,0 +1,11 @@
+{
+  "name": "match-result-prediction",
+  "description": "A simple match prediction code based on the club coefficient.",
+  "main": "matchResultPrediction.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmatijev/matchResultPrediction.git"
+  },
+  "version": "1.0.0"
+}
