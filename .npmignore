@@ -1,3 +1,7 @@
 .gitignore 
 .npmignore
-test/
+src/__tests__/
+*.ts
+!*.d.ts
+tsconfig.json
+jest.config.js
